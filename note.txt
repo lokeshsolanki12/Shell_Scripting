@@ -1,0 +1,9 @@
+for using some time some keyword in bash scripting
+
+
+
+basename :- Strip directory innfo and only give filename
+
+dirname :- Strip the filename and gives directory path
+
+realpath :- gives you full path for a file

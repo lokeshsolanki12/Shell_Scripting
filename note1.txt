@@ -1,0 +1,57 @@
+for using some time some keyword in bash scripting
+
+
+
+basename :- Strip directory innfo and only give filename
+
+dirname :- Strip the filename and gives directory path
+
+realpath :- gives you full path for a file
+
+
+Bash Variable :- this is provide by bash to perform the some specific task
+
+	Random - A rondom integer between 0 and 32767 is generated
+	UID - User ID of the user logged in
+
+# Redirection in screept
+If i want to sanme all file name in a single file then i am using the 
+
+ls > File_name
+
+here ls is alwayas a command we are store ouput of this command in the file 
+
+if i want to overwrite the file we are use the > single 
+
+and if i want to update the file ya add some more then i use the >> double 
+
+
+# chek the website exits or not 
+
+ping -c 1 Name_of_site
+
+
+:- In case if you don't wanna print the output of a command on terminal or write in a file
+
+
+
+:- if i want to check this my last task are exicute or note then i use by command "echo $?"
+
+
+:- if i want to print the name of file in log_file with log we are using $0
+
+
+
+#Log Messages
+
+:- If you wan to maintain the logging for your scirpt, you can use "logger" in your script
+
+:- you can find thr logs under 
+	/var/logs/messages
+	Exmaple :- #logger "Hey Developer"
+
+:- use command chek the logs in ubuntu
+	 sudo less /var/log/syslog
+:- In RHEL 
+	sudo less /var/logs/messages
+

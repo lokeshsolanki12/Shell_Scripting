@@ -55,3 +55,42 @@ ping -c 1 Name_of_site
 :- In RHEL 
 	sudo less /var/logs/messages
 
+:-let when we are talk about the Debugging Scripts 
+:- If we can enable the debugging of the script using below in the script
+set -x
+
+:- If we want to exit our script when a command fail
+set -e
+
+
+:- we can also use the nohup for storing output in .out file and the terinal are free
+	nohup ./fileme &
+
+
+:- Automate our Script 
+	At or Crontab
+
+
+:- for Scheduling only one time, use AT
+
+at 12:09 PM
+ < your_commnad>
+Ctrl + D
+
+"atq" to check sheduled job
+"atrm<id>"  to remove the schedule
+
+:- Repetaited
+
+to Check the existing jobs " crontab -l"
+to add new job "crontab -e"
+------After this open a writing page in this 
+	*****cd <Path> && ./create_file.sh
+
+
+--- for undustanding open this link "crontab.guru"
+
+
+
+
+
